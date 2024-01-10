@@ -46,7 +46,7 @@ app.post("/send-mail", (req, res) => {
     const mailData = {
         from: "studenttrialwhitehat@gmail.com",
         to: to,
-        subject: "Join the video chat with me!",
+        subject: "👩‍💻👩‍💻🎤📽⏰",
         html: `<p>Hey there,</p><p>Come and join me for a video chat here - ${url}</p>`
     };
     transporter.sendMail(mailData, (error, info) => {
